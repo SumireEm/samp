@@ -54,7 +54,7 @@ public class llenado extends HttpServlet {
         fos.close();
         // ruta = "http://localhost:8080/SAMP/hue.jsp";
         }
-        catch (){
+        catch (DocumentException e){
             
         }
         }
